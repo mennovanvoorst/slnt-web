@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es6"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@config": ["./src/config/index"],
+      "@interfaces/*": ["./src/types/*.d.ts"],
+      "@utils/*": ["./src/utils/*"],
+      "@loaders/*": ["./src/server/loaders/*"],
+      "@server/api": ["./src/server/api/index"],
+      "@server/sockets": ["./src/server/sockets/index"],
+      "@models/*": ["./src/server/models/*"],
+      "@services/*": ["./src/server/services/*"],
+      "@components/*": ["./src/client/components/*"],
+      "@theme": ["./src/client/theme/index"],
+      "@store/*": ["./src/client/store/*"],
+      "@routes": ["./src/client/routes/index"],
+      "@layouts": ["./src/client/layouts/index"],
+      "@pages/*": ["./src/client/pages/*"],
+      "@assets/*": ["./src/client/assets/*"],
+      "@client/api/*": ["./src/client/api/*"],
+      "@client/sockets/*": ["./src/client/sockets/*"],
+      "@constants": ["./src/constants/index"]
+    }
+  },
+  "exclude": [
+    "src/client"
+  ]
+}

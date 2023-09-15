@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "src/server"
+  ],
+  "ext": "ts",
+  "exec": "ts-node -r tsconfig-paths/register --transpile-only -r dotenv/config ./src/server/index.ts dotenv_config_path=.env.local"
+}

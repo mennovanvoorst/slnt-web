@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+.session__video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.session__video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1C1C24;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2B2F3B;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #383E4E;
+}
